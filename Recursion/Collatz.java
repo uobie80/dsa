@@ -1,3 +1,4 @@
+package Recursion;
 public class Collatz {
     public static void collatz(int n) {
         System.out.println(n + " ");
