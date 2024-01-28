@@ -9,6 +9,7 @@ def sum_up_to(n):
         return n + sum_up_to(n - 1)
 
 
+# Testcases
 print(sum_up_to(1))
 print(sum_up_to(10))
 print(sum_up_to(55))
