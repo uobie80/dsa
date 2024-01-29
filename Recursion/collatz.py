@@ -9,7 +9,7 @@ def collatz(num, count):
     Given n, repeatedly perform n = f(n) where
     f(n) = n / 2 if n is even
     f(n) = 3 * n + 1 is n is odd
-    Return number of iterations of this redution
+    Return number of iterations of this reduction
     """
     if num == 1:
         # base case
