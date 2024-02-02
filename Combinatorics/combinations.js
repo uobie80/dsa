@@ -1,7 +1,7 @@
 // Combinations is a collection of things where order does not matter
 
 //Time: O(2^n)
-//Space:
+//Space: O(n^2)
 
 const combinations = (elements) => {
     if (elements.length === 0) return [[]];
