@@ -3,7 +3,7 @@
 // Time: O(n)
 // Space: O(1)
 // Insert: O(1)  -> the insert operation itself not the search for the value
-// Remove: O(1)  -> the insert operation itself not the search for the value
+// Remove: O(1)  -> the remove operation itself not the search for the value
 // Contains: O(n)
 // to_string: O(n)
 
