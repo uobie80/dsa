@@ -1,6 +1,6 @@
 """
 A Queue is a FIFO (First in first out) data structure.
-Useful for print jobs, scheduling tasks, messaging, etc.
+Useful for graph algorithms, print jobs, scheduling tasks, messaging, etc.
 Queue class using array
 
 Time: O(1) for insertion and removal of items
