@@ -1,4 +1,5 @@
-// Implementation of a breadth first search algorithm
+// Implementation of a breadth first search (BFS) algorithm using a queue data structure
+// 
 
 //Time: O(n)
 //Space: O(n)
