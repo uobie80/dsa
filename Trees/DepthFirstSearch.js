@@ -25,3 +25,27 @@ b.right = e;
 c.right = f;
 
 
+const dfs = (node, target) => {
+    const stack = [node];
+    while (stack.length > 0) {
+        const currNode = stack.pop();
+
+        if (currNode.val === target) {
+            return true;
+        }
+        if (currNode.right !== null) {
+            stack.push(currNode.right);
+        }
+
+        if (currNode.left !== null) {
+            stack.push(currNode.left);
+        }
+
+    }
+    return false;
+};
+
+
+console.log(dfs(a, "b"));
+console.log(dfs(a, "c"));
+console.log(dfs(a, "t"));
